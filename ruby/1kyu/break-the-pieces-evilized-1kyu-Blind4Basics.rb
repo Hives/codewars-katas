@@ -1,3 +1,4 @@
+# This is the solution of Codewars user Blind4Basics
 def break_evil_pieces(shape)
   return [] if !shape.include? "+"
   @shape = shape.split(/\n+/)
